@@ -15,14 +15,9 @@ public class Cts1 {
         stringList.add("Honeydew");
         stringList.add("Indian Fig");
         stringList.add("Jackfruit");
-
         System.out.println("Initial ArrayList: " + stringList);
-
-        // Step 2: Add an element to the ArrayList
         stringList.add("Kiwi");
         System.out.println("After adding 'Kiwi': " + stringList);
-
-        // Step 3: Iterate through the ArrayList using an Iterator
         System.out.println("Iterating using Iterator:");
         Iterator<String> iterator = stringList.iterator();
         while (iterator.hasNext()) {
